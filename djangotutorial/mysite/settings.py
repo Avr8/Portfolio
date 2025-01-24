@@ -72,7 +72,7 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
-
+#Can use a heavy database like PostgresSQL or mariadb as well
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
